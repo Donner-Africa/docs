@@ -1,1 +1,0 @@
-import{E as n,a as o,f as t,G as r,n as l,u as c,H as i}from"./index-d5783bed.js";const f=n({__name:"CardTitle",props:{class:{}},setup(s){const e=s;return(a,p)=>(o(),t("h3",{class:l(c(i)("font-semibold leading-none tracking-tight",e.class))},[r(a.$slots,"default")],2))}});export{f as _};
