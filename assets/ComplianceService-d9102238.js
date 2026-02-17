@@ -1,0 +1,1 @@
+import{ai as s}from"./index-f692fab2.js";const n={async fetchUserComplianceData(e){return await s.get(`/me/compliances/${e}`,{authorizeRequest:!0})},async saveComplianceData(e,a,t){return await s.patch(`/me/compliances/${e}/${t}`,{authorizeRequest:!0,data:{complianceData:a}})}};export{n as C};
