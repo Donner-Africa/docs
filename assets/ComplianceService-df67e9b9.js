@@ -1,1 +1,0 @@
-import{ah as s}from"./index-7ab8b32e.js";const n={async fetchUserComplianceData(e){return await s.get(`/me/compliances/${e}`,{authorizeRequest:!0})},async saveComplianceData(e,a,t){return await s.patch(`/me/compliances/${e}/${t}`,{authorizeRequest:!0,data:{complianceData:a}})}};export{n as C};
